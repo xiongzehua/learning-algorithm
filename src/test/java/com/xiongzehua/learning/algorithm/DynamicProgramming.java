@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class DynamicProgramming {
     /**
-     * LeetCode62. Unique Paths
+     * LeetCode62 Unique Paths
      * prior: 1
      * A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
      * The robot can only move either down or right at any point in time.
@@ -38,7 +38,9 @@ public class DynamicProgramming {
         assertEquals(1, new LeetCode62().uniquePaths(2, 1));
     }
 
+
     /**
+     * LeetCode63 Unique Paths II
      * A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
      * The robot can only move either down or right at any point in time.
      * The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
@@ -67,4 +69,28 @@ public class DynamicProgramming {
         int[][] obstacleGrid = {{0,0,0}, {0,1,0}, {0,0,0}};
         assertEquals(2, new LeetCode63().uniquePathsWithObstacles(obstacleGrid));
     }
+
+
+    /**
+     * LeetCode64 Minimum Path Sum
+     *
+     * Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+     * Note: You can only move either down or right at any point in time.
+     *
+     * Example:
+     * Input:
+     * [
+     *   [1,3,1],
+     *   [1,5,1],
+     *   [4,2,1]
+     * ]
+     * Output: 7
+     * Explanation: Because the path 1→3→1→1→1 minimizes the sum.
+     */
+    @Test
+    public void leetCode64() {
+        int[][] grid = {{1,3,1}, {1,5,1}, {4,2,1}};
+        assertEquals(7, new LeetCode64().minPathSum(grid));
+    }
+
 }
