@@ -1,4 +1,4 @@
-package com.xiongzehua.learning.algorithm;
+package com.xiongzehua.learning.algorithm.leetcode;
 
 /**
  * Created by xiongzehua on 2018/9/16.

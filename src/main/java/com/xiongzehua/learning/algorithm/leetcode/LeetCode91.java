@@ -1,6 +1,4 @@
-package com.xiongzehua.learning.algorithm;
-
-import java.util.Arrays;
+package com.xiongzehua.learning.algorithm.leetcode;
 
 /**
  * digits数组和opt数组第0位预留，从第一位开始使用

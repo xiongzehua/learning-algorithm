@@ -1,5 +1,6 @@
-package com.xiongzehua.learning.algorithm;
+package com.xiongzehua.learning.algorithm.leetcode;
 
+import com.xiongzehua.learning.algorithm.leetcode.*;
 import org.junit.Test;
 
 import java.util.ArrayList;

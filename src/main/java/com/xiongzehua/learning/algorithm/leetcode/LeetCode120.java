@@ -1,4 +1,4 @@
-package com.xiongzehua.learning.algorithm;
+package com.xiongzehua.learning.algorithm.leetcode;
 
 import java.util.ArrayList;
 import java.util.Comparator;

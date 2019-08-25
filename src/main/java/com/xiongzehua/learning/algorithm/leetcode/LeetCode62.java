@@ -1,4 +1,4 @@
-package com.xiongzehua.learning.algorithm;
+package com.xiongzehua.learning.algorithm.leetcode;
 
 /**
  * a[i][j] = a[i-1][j] + a[i][j-1]
